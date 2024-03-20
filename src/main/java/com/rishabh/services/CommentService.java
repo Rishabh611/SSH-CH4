@@ -3,7 +3,9 @@ package com.rishabh.services;
 import com.rishabh.model.Comment;
 import com.rishabh.proxies.CommentNotificationProxy;
 import com.rishabh.repositories.CommentRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class CommentService {
     private final CommentRepository commentRepository;
     private final CommentNotificationProxy commentNotificationProxy;
