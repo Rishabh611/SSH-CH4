@@ -1,8 +1,6 @@
 package com.rishabh;
 
 import com.rishabh.model.Comment;
-import com.rishabh.proxies.EmailCommentNotificationProxy;
-import com.rishabh.repositories.DBCommentRepository;
 import com.rishabh.services.CommentService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
